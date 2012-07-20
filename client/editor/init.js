@@ -1,3 +1,2 @@
-window.onload = function() {
-  require('../game/main.js');
+window.EditorController = function($scope) {
 }

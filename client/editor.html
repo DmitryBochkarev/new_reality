@@ -1,8 +1,15 @@
 <!DOCTYPE html>
+<html lang="en" ng-app>
 <head>
+  <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.css">
   <script type="text/javascript" src="/vendor/crafty.js"></script>
-	<script type="text/javascript" src="/editor.js"></script>
+  <script type="text/javascript" src="/vendor/angular.js"></script>
+  <script type="text/javascript" src="/editor.js"></script>
 </head>
 <body>
+  <div class="container" ng-controller="EditorController">
+    <div class="span4 editor-menu"></div>
+    <div id="cr-stage" class="span8"></div>
+  </div>
 </body>
 </html>

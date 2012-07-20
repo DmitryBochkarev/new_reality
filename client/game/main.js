@@ -9,7 +9,7 @@ var tileSize = 28;
   Crafty.background( 'rgb(0,0,0)' );
 
   //load tile from "feat.png"
-  Crafty.sprite( tileSize, "/img/tiles/feat.png", {
+  Crafty.sprite( tileSize, "/assets/tiles/feat.png", {
     feat1:[0, 0], feat2:[1, 0], feat3:[2, 0], player:[1, 1]
   });
 
