@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'nodejs', '/usr/bin/npm', 'start' ]
+2 info using npm@1.1.44
+3 info using node@v0.8.3
+4 verbose config file /home/dima/.npmrc
+5 verbose config file /usr/etc/npmrc
+6 verbose config file /usr/lib/nodejs/npm/npmrc
+7 verbose read json /home/dima/Dropbox/proj/new_reality/package.json
+8 verbose run-script [ 'prestart', 'start', 'poststart' ]
+9 info prestart new_reality@0.0.0
+10 info start new_reality@0.0.0
+11 verbose unsafe-perm in lifecycle true
+12 silly exec sh "-c" "node ./server/start"
+13 silly sh,-c,node ./server/start,/home/dima/Dropbox/proj/new_reality spawning
+14 info new_reality@0.0.0 Failed to exec start script
+15 error new_reality@0.0.0 start: `node ./server/start`
+15 error `sh "-c" "node ./server/start"` failed with 1
+16 error Failed at the new_reality@0.0.0 start script.
+16 error This is most likely a problem with the new_reality package,
+16 error not with npm itself.
+16 error Tell the author that this fails on your system:
+16 error     node ./server/start
+16 error You can get their info via:
+16 error     npm owner ls new_reality
+16 error There is likely additional logging output above.
+17 error System Linux 3.2.0-26-generic
+18 error command "nodejs" "/usr/bin/npm" "start"
+19 error cwd /home/dima/Dropbox/proj/new_reality
+20 error node -v v0.8.3
+21 error npm -v 1.1.44
+22 error code ELIFECYCLE
+23 error stack Error: new_reality@0.0.0 start: `node ./server/start`
+23 error stack `sh "-c" "node ./server/start"` failed with 1
+23 error stack     at ChildProcess.<anonymous> (/usr/lib/nodejs/npm/lib/utils/exec.js:56:20)
+23 error stack     at ChildProcess.EventEmitter.emit (events.js:91:17)
+23 error stack     at Process._handle.onexit (child_process.js:674:10)
+24 verbose exit [ 1, true ]
